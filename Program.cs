@@ -34,7 +34,7 @@
         Console.Write("Введите второе число: ");
         num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Введите второе число: ");
+        Console.Write("Введите третье число: ");
         num3 = Convert.ToInt32(Console.ReadLine());
 
         int max = num1;
@@ -49,3 +49,18 @@
     
 */
 
+// Напишите программу, которая на вход принимает число и выдаёт, 
+//является ли число чётным (делится ли оно на два без остатка).
+
+ int num;
+
+        Console.Write("Введите число: ");
+        num = Convert.ToInt32(Console.ReadLine());
+
+        if ((num % 2) == 0) {
+            Console.Write ("четное");
+        }
+        else {
+        Console.Write ("нечетное");
+        }
+       
